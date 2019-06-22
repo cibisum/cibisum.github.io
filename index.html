@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1 id="title">Sorvey Form</h1>
+<div>
+  <div id="formelement">
+    <div id="innerform">
+        <form id="survey-form">
+            <p id="description">Give your Opineion on following questions</p>
+          <label for="name" id="name-label">*Name: </label> <input type="name" id="name"  placeholder="Enter your name" required><br><br>
+          <label for="email" id="email-label" >*Email: </label> <input type="email" id="email" placeholder="Enter email adress" required><br><br>
+          <label for="age" id="number-label">*Age: </label> <input type="number" id="number" placeholder="20" min="10" max="60"><br><br>
+          <label>*Select your best subject: </label>
+          <select id="dropdown"> <div id="divrignt"> <option>Foundation of programming</option>
+            <option>Game development</option>
+            <option>Mobile Development</option>
+            <option>Big Data</option>
+            <option>Web design</option></div>
+               
+          </select><br><br>
+          <label>*Would you recommend this subject to others:</label>
+                                                      <div id="divright" >
+                                                          <input type="radio" name="recom" value="yes">Yes<br>
+                                                          <input type="radio" name="recom"  value="No">No<br>
+                                                          <input type="radio" name="recom"  value="maybe">maybe<br><br>
+                                                      </div><br> <br>
+        <label>The subject you have interest on: </label><div id="divright"><input type="checkbox" name="subject" value="Programming">Programming 1<br>
+          <input type="checkbox" name="subject" value="E-commerce">E-commerce<br>
+          <input type="checkbox" name="subject" value="project">project<br>
+          <input type="checkbox" name="subject" value="udr">Understanding digital revolution</div><br><br>
+       <label>Aditional comments:   </label><div id="divright"> <textarea placeholder="write your comments" rows="5" cols="20"></textarea></div><br><br> 
+        
+          <div id="btn"><input type="submit" value="Submit" id="submit"></div>
+        </form>
+
+    </div>
+    
+  
+  </div>
+</div>
+
+
+
+     
+    <script src="main.js"></script>
+</body>
+</html>
+
